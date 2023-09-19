@@ -1,0 +1,29 @@
+<?php
+//variable
+$a= ["a","b","c"];
+$b= ["a","b","d"];
+$taillea = count($a);
+$tailleb = count($b);
+
+$i =0;
+$comparaison = true;
+
+if($taillea == $tailleb){
+    $comparaison == true;
+    while($comparaison == true && $i<$taillea){
+        if($a[$i] != $b[$i]){
+           $comparaison = false;         
+        }
+    $i = $i+1;
+    }
+    }else{
+        $comparaison = false;
+    }
+
+
+if($comparaison == true){
+    echo ("les deux tableaux sont égaux\r\n");   
+}else{
+    echo "les deux tableaux sont inégaux";
+}
+?>
