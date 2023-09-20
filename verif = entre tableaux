@@ -1,0 +1,23 @@
+algorithme
+
+Fonction :
+    Longueur(tableau)
+Varaible :
+    B,tableau[Entier]
+    A,tableau[Entier]
+
+DEBUT
+
+    Saisir 'entrer des chiffres'
+    B[i]<-Lire
+    Saisir 'entrer des chiffres'
+    A[i]<-Lire
+        Si Longueur(A)=Longueur(B)
+            Alors   Pour i allantde 0 à longueur(A) pas 1 faire
+                        Si A[i]=B[i] et Longueur(A)=i
+                        Alors afficher "les 2 tableaux sont égaux"
+                        Finsi
+                Finpour
+        Sinon Afficher 'les 2 tableaux sont inégaux'
+        Finsi
+FIN        
